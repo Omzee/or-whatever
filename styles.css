@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    background-color: #e37c14;
+}
+
+header {
+    background-image: url("Omzee.png");
+    background-attachment: fixed;
+    background-position: 0 -100px;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 60px 50px;
+}
+
+nav h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+}
+    
+.wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.advertisement {
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    color: black;
+}
+
+.slogan {
+    margin-top: 390px;
+    text-align: center;
+}
+
+.slogan .emphasis {
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.slogan .phrase {
+    color: black
+}
+
+.slogan .sign-up-form {
+    background-color: #fff;
+    border: 1px solid #e37c14;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.slogan .sign-up-form input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.slogan .sign-up-form input[type="text"] {
+    box-sizing: border-box;
+    float:left;
+    outline: none;
+}
+
+.slogan .sign-up-form input[type="submit"] {
+    background-color: #e37c14;
+    color: #fff;
+    float: right;
+}
